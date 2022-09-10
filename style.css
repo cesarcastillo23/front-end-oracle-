@@ -1,49 +1,82 @@
-.titulo-principal{
-    padding-left: 30px;
+header{
+  background-color: #bbbbbb;
+  padding: 	20px 0;
 }
+.caja{
+  width:1200px;
+  position: relative;
+  margin: 0 auto;
 
-#banner{
-    width:100%;
 }
+nav{
+  position: absolute;
+  top:100px;
+  right:0px;
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
 }
-
-.titulo-centralizado{
-    text-align: center;
+nav li{
+  display: inline;
+  margin: 10px;
+  
 }
-
-p{
-    text-align: center;
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
-
-em strong{
-    color:red;
+nav a:hover{
+  color:#c78c19;
+  text-decoration: underline;
 }
+.productos{
+  width: 960px;
+  margin: 0 auto;
 
-#mision{
-    font-size: 20px;
+  padding: 50px;
+
+  }
+.productos li{
+  display:inline-block;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding:30px 20px;
+  box-sizing: border-box;
 }
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
+.productos li:hover{
+  border-color: #c78c19;
 }
-
-.items{
-    font-style: italic;
+.productos li:hover h2{
+  font-size:33px;
 }
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.productos li:active{
+  border-color: #088c19 ;
 }
-
-.imagenDiferenciales{
-    width: 50%;
+.productos h2{
+  font-size: 30px;
+  font-weight: bold;
+  
 }
-
+.productos-descripcion{
+font-size: 20px;
+}
+.productos-precio{
+font-size: 25px;
+font-weight: bold;
+margin-top: 10px;
+}
+footer{
+  text-align: center;
+  background:url(imagenes/bg.jpg);
+  padding:40px;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
