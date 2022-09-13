@@ -243,6 +243,34 @@ td,th{
   nav{
     position:static;
   }
+  ul{
+    text-align: center;
+  }
+  .principal{
+    margin:8px;
+  }
+  .caja,.principal,.mapa-contenido,.contenido-diferenciales,.video{
+    width: auto;
+    position: relative;
+  }
+  .lista-diferenciales,.imagen-diferenciales{
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width:1200px) {
+  h1{
+    text-align: center;
+  }
+  nav{
+    position:static;
+  }
+  ul{
+    text-align: center;
+  }
+  .principal{
+    margin:8px;
+  }
   .caja,.principal,.mapa-contenido,.contenido-diferenciales,.video{
     width: auto;
     position: relative;
